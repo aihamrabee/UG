@@ -1,0 +1,49 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>contact form</title>
+        <link href="form.css" rel="stylesheet">
+    </head>
+    <body>
+       <h1> Contact Form</h1>
+        
+        <form action="">
+            <label>First Name</label>
+            <input type="text" name="firstname" required placeholder="firstname"><br><br>
+       <label>Last Name</label>
+         <input type="text" name="lastname" required placeholder="lastname"><br><br>
+          <label>Email</label>
+            <input type="email"name="email" required placeholder="Example@....com"><br><br>
+            <label>Password</label>
+            <input type="password" name="pw" required placeholder="********"><br><br>            
+              <label>Gernder</label><br>
+              <input type="radio" name="gernder" value="Male">
+            <label>Male</label><br>
+            <input type="radio" name="Female" value="Female">
+          <label>Female</label><br><br>
+             <label>Date of birth</label><br>
+               <input type="date" required><br><br>
+                <label>Where do you come from?</label><br><br>
+          <select name="country">
+       <option value="?">Any</option>
+       <option value="De">Germany</option>
+        <option value="Sy">Syria</option>
+        <option value="Sp">Spain</option>
+                  </select><br><br>
+             
+               <label>About you</label><br>
+            <textarea name="message"></textarea><br><br>
+        <input type="checkbox" name="news" checked>
+        <label>send me plz. </label><br><br>
+         <input type="submit" value="Send"><br><br>
+         
+<!--
+          <label>Rate us</label><br>
+               <input type="range" min="1" max="20"><br>
+-->
+             
+               </form>
+   
+     </body>
+    </html>

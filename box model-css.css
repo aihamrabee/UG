@@ -1,0 +1,47 @@
+div.box1 {
+    border: 1px solid green;
+    width: 60%;
+    max-width: 400px;
+    padding: 10px 20px;
+    margin: 30px auto;
+    box-shadow: 10px 10px 20px #666;
+    background-color: chartreuse;
+}
+div.box2 {
+    border:  dashed blue;
+    width: 400px;
+    padding: 10px 20px;
+    margin: 10px auto;
+    box-shadow: 20px 10px 20px #666;
+    background-color: antiquewhite;
+    position: relative}
+div.box2 div {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border: 5px solid black;
+    
+    
+}
+    
+        
+    
+    
+
+div.box3 {
+    border-width: 5px;
+    border-style: dashed dotted groove solid;
+    border-color: black blue red grey;
+    margin: 10px;
+    padding: 30px;
+    box-shadow: 20px 25px 10px #666;
+    background-color: rebeccapurple
+    
+}
+body {background-image: url(gang-776297_960_720.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-size: cover;}
+h1 {text-align: center}
+div  {color: firebrick}

@@ -1,0 +1,28 @@
+
+
+
+nav {text-align: center;
+
+position: sticky;
+top: 0;
+ right: 0;
+    left: 0
+
+}
+
+nav a {
+    text-decoration: none;
+    word-spacing: 0.4em;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: darkgray;}
+
+header {
+    
+    background-image: url(1915016_819484768161598_5959851528928889196_n.png);
+    background-size: cover;
+    height: 200px;
+}
+
+
+

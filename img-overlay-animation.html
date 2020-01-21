@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Overlay Animation</title>
+    <style>
+        body {background-color: black}
+        h1 {color: red;
+        text-align: center}
+        figure {
+            position: relative;
+            width: 400x;
+            height: 450px;
+            overflow: hidden;
+        }
+        img {
+            filter: blur(1);
+            transform: scale(1);
+            transition: all 0.5s;
+        }
+        
+        img, figcaption {
+            position: absolute;
+        }
+        figcaption {
+            margin-top: 365px;
+            padding: 10px;
+            background-color: rgba(255,255,255,0.5);
+            font-size: 24px;
+            width: 100%;
+            transition: all 0.6s 1s;
+        }
+        figure:hover figcaption {
+            margin-top: 0px;
+        }
+        figure:hover img {
+            filter: none;
+            transform: scale(1.05);
+        }
+        
+    </style>
+</head>
+<body>
+   <h1>Image Overlay Animation</h1>
+   
+   <figure>
+       <img src="sasuke___cursed_seal_tattoo_by_hand_drawn%20(1).jpg">
+       <figcaption>Canale Grande in Venice</figcaption>
+   </figure>
+    
+</body>
+</html>

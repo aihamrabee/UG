@@ -1,0 +1,49 @@
+form{
+    font-family: helvetica;
+}
+
+label {
+    display: inline-block;
+    width: 140px;}
+input[type="text"] 
+   {
+     width: 300px;
+    padding: 8px;
+    border: none; 
+}
+input[type="email"]{
+     width: 300px;
+    padding: 8px;
+    border: none; 
+}
+input[type="password"]{
+    width: 300px;
+    padding: 8px;
+    border: none;
+}
+textarea {
+    width: 300px;
+    height: 150p;
+    padding: 7px;
+    vertical-align: top;
+}
+select {
+    
+    width: 200px;
+    padding: 8px;
+    color: royalblue;
+    background-color: black
+}
+input[type="submit"]{
+    padding: 4px 20px;
+    font-weight: bold;
+      font-size: 24px;
+    background-color: red;
+    cursor: pointer;}
+
+input:focus, textarea:focus{
+    outline: none
+}
+input:focus, textarea:focus{
+    background: #eee;
+}
