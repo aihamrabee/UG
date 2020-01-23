@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio Website</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Portfolio-Website.css">
+</head>
+
+
+
+<body>
+  <header></header>
+   <nav id="top">
+
+      <a href="#section1">Home</a>
+      <a href="#section2">About</a>
+      <a href="#section3">Experience</a>
+      <a href="#section4">Contact</a>
+  </nav>
+   <main>
+   
+   <section id="section2">
+       <h2>About Me : </h2>
+     <div class="box5"><img src="me.jpg" style="width: 300px; height: 300px; float: left; margin-right: 10px; scroll-behavior: smooth"></div>
+       <div class="box1">
+
+       
+       <p>Im Aiham 30 years old 
+       
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam maiores, aliquid totam possimus ut quibusdam at, quasi ipsum incidunt architecto nemo necessitatibus a aliquam dicta blanditiis quaerat alias, neque esse assumenda consectetur aut minus nam ducimus. Quisquam, cumque ratione aliquam quasi facilis at sed. Dolore sequi dolor cumque natus quis, animi autem eveniet voluptatem nisi nulla repudiandae ducimus vel laudantium facere nesciunt quia! Molestias sit eaque odit commodi ex, nisi pariatur quisquam placeat suscipit sint voluptates soluta officia inventore. Obcaecati laudantium neque ipsa deserunt quo, enim, alias accusamus sint eaque nostrum dolor, iure reiciendis quod odit fuga dolores voluptatem reprehenderit.</p></div>
+   </section>
+    <section id="section3">
+       <h2>Work Experience : </h2>
+       <p>
+       <lu> <li> <strong>2014-2019</strong> <div class="box2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam maiores, aliquid totam possimus ut quibusdam at,</div></li><br> <li> <strong>2010-2014</strong> <div class="box2"> quasi ipsum incidunt architecto nemo necessitatibus a aliquam dicta blanditiis quaerat alias, neque esse assumenda consectetur aut minus nam ducimus. Quisquam, cumque ratione aliquam quasi facilis at sed. Dolore sequi dolor cumque natus quis, animi autem eveniet voluptatem nisi nulla </div></li><br> <li> <strong>2006-2010</strong>   <div class="box2">repudiandae ducimus vel laudantium facere nesciunt quia! Molestias sit eaque odit commodi ex, nisi pariatur quisquam placeat suscipit sint voluptates soluta officia inventore. Obcaecati laudantium neque ipsa deserunt quo, enim, alias accusamus sint eaque nostrum dolor, iure reiciendis quod odit fuga dolores voluptatem reprehenderit.</div></li> <br></lu></p>
+   </section>
+    <section id="section4">
+       <h2>Contact me : </h2>
+       <p><div class="box3">
+           <label>First Name</label>
+            <input type="text" name="firstname" required placeholder="firstname"><br><br>
+       <label>Last Name</label>
+         <input type="text" name="lastname" required placeholder="lastname"><br><br>
+          <label>Email</label>
+            <input type="email"name="email" required placeholder="Example@....com"><br><br>
+            <label>Password</label>
+            <input type="password" name="pw" required placeholder="********"><br><br>            
+              <label>Gernder</label><br><br>
+              <input type="radio" name="gernder" value="Male">
+            <label>Male</label>
+            <input type="radio" name="Female" value="Female">
+          <label>Female</label><br><br>
+             <label>Date of birth</label><br>
+               <input type="date" required><br><br> 
+           <label>About you</label><br>
+            <textarea name="message"></textarea><br><br>
+        <input type="checkbox" name="news" checked>
+        <label>Accept our terms and conditions. </label><br><br>
+         <input type="submit" value="Send"><br><br>
+           </div>
+           <h2>My Contact : </h2>
+           <footer>
+   <a href="https://www.facebook.com/" target="_blank">
+    <i class="fab fa-facebook"></i>
+    </a>
+    <a href="https://www.instagram.com/" target="_blank">
+<i style="color: darkorange"; class="fab fa-instagram"></i>
+</a>
+<a href="https://www.youtube.com/" target="_blank">
+<i style="color: red" class="fab fa-youtube"></i>
+</a>
+
+
+</footer>
+       </p>
+   </section>
+    <h1></h1>
+     
+     <h1></h1>
+     
+      <button onclick="Frontleft()">click me!!</button>
+      
+      <script>
+    var heading = document.querySelector("h1");
+    var button = document.querySelector("button");
+    function Frontleft() {
+        heading.innerHTML ="Done!!";
+        heading.style.color ="red";
+        heading.style.fontWeight ="normal";
+        heading.style.fontSize = "60px";
+        button.style.display = "none";
+    }     
+    
+    </script> 
+</body>
+</html>
